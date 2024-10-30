@@ -109,7 +109,7 @@ button:active {
       "header header"
       "subscription why-us";
     max-width: 1440px;
-    width: 80%;
+    width: 50%;
   }
   #join-our {
     grid-area: header;
