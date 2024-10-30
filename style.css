@@ -76,6 +76,7 @@ section {
 button {
   display: block;
   margin-inline: auto;
+  width: 100%;
   background-color: hsl(71, 73%, 54%);
   color: whitesmoke;
   border-radius: 1em;
