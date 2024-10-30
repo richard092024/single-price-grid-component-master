@@ -7,7 +7,7 @@ footer {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 .attribution a {
@@ -47,11 +47,11 @@ h4 {
 }
 
 section {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  display: block;
+  margin-inline: auto;
+  margin-top: 50px;
+  max-width: 375px;
   box-shadow: slategray;
-  margin: 20px;
 }
 
 #join-our {
@@ -99,4 +99,27 @@ button:hover {
 button:active {
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 black;
+}
+
+@media (min-width: 700px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "subscription why-us";
+    max-width: 1440px;
+    width: 80%;
+  }
+  #join-our {
+    grid-area: header;
+  }
+
+  #subscription {
+    border-radius: 0px 0px 0px 10px;
+  }
+
+  #why-us {
+    border-radius: 0px 0px 10px 0px;
+  }
 }
