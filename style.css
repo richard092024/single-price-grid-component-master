@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  min-height: 100svh;
+  background-color: rgb(216, 219, 219);
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  margin-block: 20px;
+  font-size: 18px;
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  margin-block: 15px;
+  font-size: 18px;
+  color: hsl(71, 73%, 54%);
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  place-items: center;
+  box-shadow: slategray;
+  margin-top: 200px;
+}
+
+#join-our {
+  background-color: rgb(240, 240, 240);
+  max-width: 20%;
+  padding: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#subscription {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  max-width: 20%;
+  padding: 30px;
+}
+
+#why-us {
+  background-color: hsla(179, 62%, 43%, 80%);
+  color: white;
+  max-width: 20%;
+  padding: 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: whitesmoke;
+  border-radius: 1em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: 0 0 0 0 white;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 white;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
