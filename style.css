@@ -51,7 +51,6 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  place-items: center;
   box-shadow: slategray;
   margin-top: 200px;
 }
